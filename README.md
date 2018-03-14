@@ -1,1 +1,1 @@
-# Banana-Random-Number-Generator
+# Banana Random Number Generator
