@@ -9,8 +9,10 @@ Hardware released under CC-BY-SA 4.0 license
 1. [Project description](#project-description)  
 1. [Hardware](#hardware)  
 1. [Software](#software) 
+1. [Enclosure](#enclosure) 
 
 ## Project status 
 ## Project description 
 ## Hardware 
 ## Software
+## Enclosure
