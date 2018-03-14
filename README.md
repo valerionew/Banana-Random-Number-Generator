@@ -1,5 +1,6 @@
 # Banana Random Number Generator
 
+![layout 1](/images/layout.png)
 
 1. [Project status](#project-status)  
 1. [Project description](#project-description)  
