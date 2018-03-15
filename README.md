@@ -12,6 +12,8 @@ Hardware released under CC-BY-SA 4.0 license
 1. [Enclosure](#enclosure) 
 
 ## Project status 
+The current released hardware version is fully working. 
+The software may need some work
 ## Project description 
 ## Hardware 
 ## Software
