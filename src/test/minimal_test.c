@@ -63,6 +63,12 @@ int main() {
 	USART_init();
 	INT0_init();
 	sei();
+	USART_send('S');
+	USART_send('t');
+	USART_send('a');
+	USART_send('r');
+	USART_send('t');
+	USART_send('\n');
 	while(true) {
 		if (start < end) {
 			USART_send(random[start++]);
