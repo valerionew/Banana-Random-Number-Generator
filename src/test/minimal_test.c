@@ -56,12 +56,14 @@ ISR(INT0_vect) {
 	random[end++] = tmp;
 	tmp = tmp >> 8;
 	random[end++] = tmp;
+	PINB |= (1 << PINB1); //toggle led
 }
 
 int main() {
 	TIM1_init();
 	USART_init();
 	INT0_init();
+	DDRB |= (1 << PINB1); //set led as output
 	sei();
 	USART_send('S');
 	USART_send('t');
