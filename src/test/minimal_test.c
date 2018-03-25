@@ -70,7 +70,7 @@ int main() {
 	USART_send('t');
 	USART_send('\n');
 	while(true) {
-		if (start < end) {
+		if (start != end) {
 			USART_send(random[start++]);
 		}
 	}
