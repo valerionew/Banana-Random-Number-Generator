@@ -11,7 +11,7 @@ void TIM1_init() {
 	//set normal mode
 	TCCR1A = 0;
 	//no prescaler
-	TCCR1B = (1 << CS10); 
+	TCCR1B = (1 << CS10);
 }
 
 void USART_init(void){
@@ -23,9 +23,9 @@ void USART_init(void){
 
 void TIMER1_CAPTURE_init (void){
 	//capture flag rising enable
-	TCCR1B |= (0 << ICES1); 
+	TCCR1B |= (0 << ICES1);
 	// enable capture interrupt
-	TIMSK1 = (1<<ICIE1);	
+	TIMSK1 = (1<<ICIE1);
 	DDRB |= (0<< PINB0);
 
 }
@@ -33,7 +33,7 @@ void TIMER1_CAPTURE_init (void){
 void USART_send(const uint8_t data) {
 	while(!(UCSR0A & (1 << UDRE0))) {
 		//do nothing
-		; 
+		;
 	}
 	UDR0 = data;
 }
@@ -41,7 +41,7 @@ void USART_send(const uint8_t data) {
 uint8_t USART_receive(void) {
 	while(!(UCSR0A & (1 << RXC0))) {
 		//do nothing
-		; 
+		;
 	}
 	return UDR0;
 }
@@ -67,12 +67,6 @@ int main() {
 	USART_init();
 	TIMER1_CAPTURE_init();
 	sei();
-	USART_send('S');
-	USART_send('t');
-	USART_send('a');
-	USART_send('r');
-	USART_send('t');
-	USART_send('\n');
 	while(true) {
 		if (start != end) {
 			USART_send(random[start++]);
