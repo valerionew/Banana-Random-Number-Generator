@@ -1,3 +1,20 @@
+/* 
+ * This file is part of the Banana Random Number Generator project (https://github.com/5N44P/Banana-Random-Number-Generator).
+ * Copyright (c) 2018 Mauro Mombelli.
+ * 
+ * This program is free software: you can redistribute it and/or modify  
+ * it under the terms of the GNU General Public License as published by  
+ * the Free Software Foundation, version 3.
+ *
+ * This program is distributed in the hope that it will be useful, but 
+ * WITHOUT ANY WARRANTY; without even the implied warranty of 
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License 
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
 #define F_CPU 16000000UL
 #define BAUDRATE 9600        //The baudrate that we want to use
 #define BAUD_PRESCALLER (((F_CPU / (BAUDRATE * 16UL))) - 1)    //The formula that does all the required math
