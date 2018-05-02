@@ -1,17 +1,17 @@
 #!/bin/bash
 
-#You might want to change this path according to the position of your avr-gcc tools
-#Here i'm using the toolchain included in arduino
+# You might want to change this path according to the position of your avr-gcc tools
+# Here i'm using the toolchain included in arduino
 TOOLS=$HOME/arduino-1.8.5/hardware/tools/avr/bin
 
 TARGET=atmega328p
 
 if [[ $1 -eq 0 ]] ; then
-    echo 'Usage: load.sh file.c /dev/port'
+    echo 'Usage: loadscript.sh source.c /dev/port'
     exit 1
 fi
 if [[ $2 -eq 0 ]] ; then
-    echo 'Usage: load.sh file.c /dev/port'
+    echo 'Usage: loadscript.sh source.c /dev/port'
     exit 1
 fi
 SOURCE=$1
