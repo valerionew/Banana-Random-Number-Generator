@@ -4,3 +4,4 @@ fp-lib-table linguist-generated=true
 *.xml linguist-generated=true
 *.txt linguist-generated=true
 *.kicad_mod linguist-vendored=true
+Hardware/customfootprints.pretty/* linguist-vendored
