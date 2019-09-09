@@ -4,6 +4,9 @@
 # Here i'm using the toolchain included in arduino
 TOOLS=$HOME/arduino-1.8.5/hardware/tools/avr/bin
 
+# You have to put an avrdude config file in the same folder. I use the one from:
+# https://github.com/arduino/arduino-flash-tools/blob/master/tools_linux_64/avrdude/etc/avrdude.conf
+
 TARGET=atmega328p
 
 if [[ $1 -eq 0 ]] ; then
