@@ -79,7 +79,9 @@ ISR(TIMER1_CAPT_vect){
 }
 
 int main() {
-    uint16_t count = 0;
+	DDRB |= (1<< PINB1); // set leds pin as output
+	PORTB |= (1<< PINB1); // turn on leds
+
 	TIM1_init();
 	USART_init();
 	TIMER1_CAPTURE_init();
