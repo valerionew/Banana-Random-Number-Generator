@@ -1,5 +1,5 @@
 /* 
- * This file is part of the Banana Random Number Generator project (https://github.com/5N44P/Banana-Random-Number-Generator).
+ * This file is part of the Banana Random Number Generator project (https://github.com/valerionew/Banana-Random-Number-Generator).
  * Copyright (c) 2018 Mauro Mombelli.
  * 
  * This program is free software: you can redistribute it and/or modify  
