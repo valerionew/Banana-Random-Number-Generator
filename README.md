@@ -2,6 +2,7 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/Hardware%20license-CC--BY--SA%204.0-brightgreen.svg)](http://creativecommons.org/licenses/by-sa/4.0/)  
 [![License: GPL v3](https://img.shields.io/badge/Firmware%20license-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+![brng](bnrg.jpg)
 
 ## Project description 
 An Arduino based true random number generator. Takes it's peculiar name from the potassium-40 present in bananas, used as radiation source for the random number generatation.  
