@@ -17,8 +17,7 @@ _Disclaimer: the radioactivity from the bananas doesn't quite make the differenc
 1. [Enclosure](#enclosure) 
 
 ## Project status 
-The current released hardware version is fully working. 
-The software may need some work
+The current release is fully working. 
 ## Hardware 
 The hardware is based around the popular ATMega328P and the STS-5 (a.k.a. CTC-5) Geiger-Müller tube.
 ## Software
