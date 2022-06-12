@@ -7,7 +7,7 @@
 ## Project description 
 An Arduino based true random number generator. Takes it's peculiar name from the potassium-40 present in bananas, used as radiation source for the random number generatation.  
   
-_Disclaimer: the radioactivity from the bananas doesn't quite make the difference, the background radiation is more than enough to make the generator work and afaik the banana's is not even detectable._
+_Disclaimer: the radioactivity from the bananas doesn't quite make the difference, the background radiation is more than enough to make the generator work. Potassium is definitely detected, some tests conducted with pure KCl and KOH showed a huge increase in the detector activity._
 
 ![layout 1](/images/layout.png)
 
